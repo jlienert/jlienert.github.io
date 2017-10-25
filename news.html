@@ -35,8 +35,91 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 </div>
 
 <!-- Content -->
+<div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
 
-19 October, 2017  Jeffrey Lienert wins Nuffield Department of Medicine 3rd Year Graduate Student Award <a href="https://www.gtc.ox.ac.uk/news/news-articles/1944-jeff-lienert-wins.html">Link </a>
-25 July, 2017          Reuters Health article about the social influence paper <a href="https://www.reuters.com/article/us-health-cancer-support-networks/cancer-patients-in-chemo-ward-may-influence-each-others-survival-idUSKBN1AA2GM">Link</a>
-19 July, 2017          Article on NHGRI site about the social influence paper <a href="https://www.nih.gov/news-events/news-releases/social-interaction-affects-cancer-patients-response-treatment">Link</a>
-12 July, 2017          "Social influence on 5-year survival in a longitudinal chemotherapy ward co-presence network published in <i>Network Science</i> <a href="https://www.cambridge.org/core/journals/network-science/article/social-influence-on-5year-survival-in-a-longitudinal-chemotherapy-ward-copresence-network/4E08D5F5A0D332AA5BB119310833A244">Link</a>
+
+<!-- Slideshow -->
+  <div class="w3-container">
+    <div class="w3-display-container mySlides">
+     <a href="https://www.cambridge.org/core/journals/network-science/article/social-influence-on-5year-survival-in-a-longitudinal-chemotherapy-ward-copresence-network/4E08D5F5A0D332AA5BB119310833A244">
+	<img src="networkWEB4.jpg" style="width:100%">
+      <div class="w3-display-topleft w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">12 July, 2017: Paper published in <i>Network Science</i></span>
+	</a>
+      </div>
+    </div>
+
+    <div class="w3-display-container mySlides">
+<a href="https://www.gtc.ox.ac.uk/news/news-articles/1944-jeff-lienert-wins.html">
+      <img src="gtc_front.jpg" style="width:100%">
+      <div class="w3-display-middle w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">19 October, 2017: NDM 3rd Year Award</span>
+</a>
+      </div>
+    </div>
+
+    <div class="w3-display-container mySlides">
+<a href="https://www.reuters.com/article/us-health-cancer-support-networks/cancer-patients-in-chemo-ward-may-influence-each-others-survival-idUSKBN1AA2GM">
+      <img src="reuters.png" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">25 July, 2017: Reuters article on social influence paper</span>
+      </div>
+</a>
+    </div>
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+    
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+<!-- Footer -->
+
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center">
+  <h4>Footer</h4>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.facebook.com/jeffrey.lienert"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/JeffLienert"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/jefflienert/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+</body>
+</html>
