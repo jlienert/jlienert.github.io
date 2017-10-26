@@ -1,2 +1,4 @@
 name: Jeffrey Lienert
 markdown: kramdown
+plugins:
+  - jekyll-seo-tag
