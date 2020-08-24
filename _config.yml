@@ -4,16 +4,16 @@ plugins:
   - jekyll-seo-tag
 
 # Name of your blog (this will show up at the top of your page and in the RSS feed)
-name: Jeff Lienert's Website
+name: Jeff Rewley's (Lienert) Website
 
 # Short description (goes below the title; it will also be used in the RSS feed)
-description: A website describing Jeff Lienert's professional profile, including research, CV, and recent news.
+description: A website describing Jeff Rewley's (Lienert) professional profile, including research, CV, and recent news.
 
 # Your name, as you want it to appear underneath each post and in the footer
-author: Jeff Lienert
+author: Jeff Rewley
 
 # Your email if you want it to be linked on the contact page
-author_email: jeffrey.lienert@pennmedicine.upenn.edu
+author_email: jeffrey.rewley@pennmedicine.upenn.edu
 
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
 url: http://jlienert.github.io
