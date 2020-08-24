@@ -18,34 +18,37 @@ title: Jeffrey Rewley (Lienert)
 <h2> About Me </h2>
 
 <div style="float:right">
-<a class="twitter-timeline" data-width="350" data-height="900" href="https://twitter.com/JeffLienert?ref_src=twsrc%5Etfw" style="margin-left:25px;float:right">Tweets by JeffLienert</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline" data-width="350" data-height="750" href="https://twitter.com/JeffLienert?ref_src=twsrc%5Etfw" style="margin-left:25px;float:right">Tweets by JeffLienert</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 
 <p align=justify> I am an <a href="https://www.cherp.research.va.gov/research/CHERP_Health_Services_Research_Fellowship.asp">advanced fellow in health services research</a>, working with the
-  <a href="https://nudgeunit.upenn.edu/">Nudge Unit</a> at the University of Pennsylvania and the Center for Health Equity Research and Promotion
-  <a href="https://www.cherp.research.va.gov/">(CHERP)</a> at the Philadelphia VA Medical center. I completed my doctoral work in the
+  <a href="https://nudgeunit.upenn.edu/">Nudge Unit</a> and <a href="https://www.med.upenn.edu/apps/faculty/index.php/g275/p8156536">Prof. Mitesh Patel</a> at the University of Pennsylvania
+  and the Center for Health Equity Research and Promotion <a href="https://www.cherp.research.va.gov/">(CHERP)</a> at the Philadelphia VA Medical center. I completed my doctoral work in the
   <a href="https://oxcam.gpp.nih.gov/">NIH Oxford Cambridge Scholars Program</a>, where I was advised by
   <a href="https://www.genome.gov/14514804/koehly-group/">Dr. Laura Koehly</a> at the Social and Behavioral Research Branch (SBRB) of the National Human Genome Research Institute (NHGRI),
   <a href="https://www.sbs.ox.ac.uk/community/people/felix-reed-tsochas">Prof. Felix Reed-Tsochas</a> at the Said Business School at Oxford University, and
   <a href="http://www.chrismarcum.com/index.php">Dr. Chris Marcum</a>, also at the SBRB. You can view my dissertation <a href="https://ora.ox.ac.uk/objects/uuid:e19e3a20-f154-4a67-bc3c-2e82bee9c845">here</a>.
 </p>
 
-<p align=justify> My research is currently multi-streamed, with ongoing effort involved in social network analysis, electronic medical records, behavioral phenotyping, and health equity. In my dissertation I
-  focused on the intersection of the first two, examining how patients co-located in hospital wards (co-presence) impacted health outcomes. My current work at the VA and the University of
-  Pennsylvania extends this work to include randomized clinical trials, where I will be implementing social network interventions to ameliorate some health outcomes affected by one's social
-  network. I am also in the process of incorporating health equity concerns into my research, as the US population is much more heterogeneous than the British population I focused on in my
-  dissertation. This also includes work with <a href="https://warwick.ac.uk/fac/arts/schoolforcross-facultystudies/gsd/aboutus/peoplenew/marcohaenssgen/">Dr. Marco Haenssgen</a>
-  and colleagues examining the effect of social networks and precarity on antibiotic usage in low and middle income countries.
-</p>
+<p align=justify> My research currently focuses on leveraging social data to understand and improve health. One avenue I am particularly involved in is how we can glean socail data from Electronic Medical
+  Records (EMRs) and Hospital Administrative Data (HAD): databases very much not designed to capture social information. Using this approach, I have shown that who one is in the same hospital ward as
+  (which I term "co-presence") can predict
+  <a href="https://www.cambridge.org/core/journals/network-science/article/social-influence-on-5year-survival-in-a-longitudinal-chemotherapy-ward-copresence-network/4E08D5F5A0D332AA5BB119310833A244">
+  cancer mortality<> and <a href="https://www.journalofhospitalinfection.com/article/S0195-6701(20)30362-5/fulltext">infection</a>.
+  I have also applied this approach to <a href="https://journals.sagepub.com/doi/10.1177/0890117119892776">secondary analyses of behavioral interventions</a> and
+  <a href="https://journals.lww.com/epidem/Abstract/9000/Specimen_pooling_to_conserve_additional_testing.98377.aspx"> simulation studies</a>. Through all of these studies I have shown that who we
+  are around is important to our health, and health interventions should both be aware of this and leverage it if possible.
+  </p>
 
-<p align=justify> My work on social networks analysis includes both methodological and empirical contributions. Methodologically, I developed an
-  <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3119068">algorithm</a>, extending the triad census to include nodal attributes, or colors. This algorithm reduced the
-  computational time necessary to calculate this by orders of magnitude over the naive approach. The empirical work includes a recent
-  <a href="https://www.cambridge.org/core/journals/network-science/article/social-influence-on-5year-survival-in-a-longitudinal-chemotherapy-ward-copresence-network/4E08D5F5A0D332AA5BB119310833A244">paper</a>
-  in <i>Network Science</i> on the social influence between patients in a chemotherapy ward. Importantly, this work used large observational datasets to answer research questions typically requiring
-  detailed ethnographic or survey research for a fraction of the cost. The empirical work also examines how co-presence networks constructed from electronic medical records can be used to
-  predict nosocomial infection <a href="https://ora.ox.ac.uk/objects/uuid:e19e3a20-f154-4a67-bc3c-2e82bee9c845">(Chapter 3)</a>.
-</p>
+<p align=justify> In addition to empirical work, I have developed a number of methodological improvements when I have found the current methodology limiting. This has made my methodological
+  contributions directly linked to my ongoing empirical work, ensureing immediate implementation of the given methods. For instance, in order to detect the effect of co-presence on
+  chemotherapy patients, I had to control for hospital standard operating procedure. Due to the complexity of the healthcare system, I developed a <a href="https://ieeexplore.ieee.org/document/9006148">
+  method</a> to determine when
+  two patients were in a ward more than expected by chance, net of underlying scheduling protocol at the hospital. THis was immediately put into use in my empirical work. As another example,
+  I developed an <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3119068">algorithm</a> to efficiently caluclate the colored triad census with the immediate aim of using the statistics
+  generated by the algorithm to understand infection networks
+  and identify asymptomatic infections (work ongoing). In approaching methodological contributions this way, I can immeduately show a use case that will increase uptake of a given algorithm.
+  </p>
 
 <p align=justify> I have recently begun incorporating behavioral phenotyping into my work as a way to identify subsets of patients most at-risk of certain outcomes, or who would benefit most from certain interventions.
   As part of the former, I used co-presence networks built from electronic medical records along with biomarker data to infer a class of patients with nosocomial infection below the threshold of
