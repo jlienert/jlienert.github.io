@@ -2,9 +2,9 @@
 
 /* Puts an image on top of anbother */
 .top {
-  position: absolute;
-  left: 100px;
-  top: 100px;
+  position: relative;
+  left: 0px;
+  top: -500px;
   border: 1px solid black;
   z-index: 1;
  }
