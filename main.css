@@ -1,5 +1,13 @@
 /* Reset */
 
+.top {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  border: 1px solid black;
+  z-index: 1;
+ }
+
 /* Responsive Tiled Photo Gallery */
 	 .galleryWrap
 	 {
