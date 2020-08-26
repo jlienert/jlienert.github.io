@@ -4,8 +4,7 @@
 .top {
   position: relative;
   left: 0px;
-  top: -500px;
-  border: 1px solid black;
+  top: 500px;
   z-index: 1;
  }
 
