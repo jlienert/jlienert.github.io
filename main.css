@@ -2,7 +2,7 @@
 
 /* Puts an image on top of anbother */
 .top {
-  position: relative;
+  position: absolute;
   left: 0px;
   top: -500px;
   z-index: 1;
