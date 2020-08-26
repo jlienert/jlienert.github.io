@@ -1,5 +1,6 @@
 /* Reset */
 
+/* Puts an image on top of anbother */
 .top {
   position: absolute;
   left: 100px;
